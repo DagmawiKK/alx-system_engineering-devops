@@ -1,7 +1,7 @@
 #Solutions for *0x03. Shell, init files, variables and expansions*
 
 0. **0-alias**: Creates an alias by setting  `Name : *ls* ` and variable `Value : *rm \* *`
-1. **1-hello****_****you**: Prints *hello user*, where user is the current Linux `user`.
+1. **1-hello_you**: Prints *hello user*, where user is the current Linux `user`.
 2. **2-path**: Adds `/action` to the `PATH` where `/action` should be the last directory the shell looks into when looking for a program.
 3. **3-paths**: Counts the number of directories in the `PATH`.
 4. **4-global_****variables**: Lists environment variables.
