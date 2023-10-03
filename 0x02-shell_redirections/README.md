@@ -32,24 +32,24 @@
 
 15. **15-countthatword**: Displays the number of lines that contain the pattern “bin” in the file `/etc/passwd`.
 
-16. **16-whatsnext**:
+16. **16-whatsnext**: Displays lines containing the pattern “root” and 3 lines after them in the file `/etc/passwd`.
 
-17. **17-hidethisword**:
+17. **17-hidethisword**: Displays all the lines in the file `/etc/passwd` that do not contain the pattern “bin”.
 
-18. **18-letteronly**:
+18. **18-letteronly**: Displays, including capital letters, all lines of the file `/etc/ssh/sshd_config` starting with a letter.
 
-19. **19-AZ**:
+19. **19-AZ**: Replaces all characters `A` and `c` from input to `Z` and `e` respectively.
 
-20. **20-hiago**:
+20. **20-hiago**: Removes all letters `c` and `C` from input.
 
-21. **21-reverse**:
+21. **21-reverse**: Reverse its input.
 
-22. **22-users_and_homes**:
+22. **22-users_and_homes**: Displays all users and their home directories, sorted by users following the `/etc/passwd` file.
 
-23. **100-empty_casks**:
+23. **100-empty_casks**: Locates and lists empty files and directories in the current directory and its subdirectories, displaying only their names (including hidden ones), with each name on a separate line and ending with a newline character, all without using `basename`, `grep`, `egrep`, `fgrep`, or `rgrep`.
 
-24. **101-gifs**:
+24. **101-gifs**: Lists sorted, case-insensitive, hidden `.gif` files' names (without extensions) in the current directory and its subdirectories, only including regular files, with each name on a separate line and ending with a newline character. It avoids using `basename`, `grep`, `egrep`, `fgrep`, or `rgrep`.
 
-25. **102-acrostic**:
+25. **102-acrostic**: Decodes acrostics that use the first letter of each line.
 
-26. **103-the_biggest_fan**:
+26. **103-the_biggest_fan**: Parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
